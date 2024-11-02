@@ -1,0 +1,22 @@
+# Rust関連
+/target
+**/*.rs.bk
+
+# IDEやエディタの設定ファイル
+/.idea
+/.vscode
+*.swp
+*.swo
+
+# Nix関連
+/nix-result
+/result
+/.cache
+
+# GitHub Actionsの一時ファイル（不要な場合）
+/.github/workflows/*.bak
+.github/workflows/*.log
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
